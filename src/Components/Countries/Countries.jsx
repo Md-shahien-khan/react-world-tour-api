@@ -30,7 +30,7 @@ const Countries = () => {
             <h3>Countries : {countries.length}</h3>  
             {/* step 5 map all the countries and set in another component called country  */}
             {
-                countries.map(country => <Country country ={country}></Country>)
+                countries.map(country => <Country country ={country} key={country.cca3 }></Country>)
             }
         </div>
     );
